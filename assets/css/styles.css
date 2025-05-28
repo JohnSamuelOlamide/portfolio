@@ -676,7 +676,7 @@ img {
   }
 
   .experience__card {
-    grid-template-columns: 100fr 380fr;
+    grid-template-columns: 360fr 380fr;
     align-items: center;
   }
 
