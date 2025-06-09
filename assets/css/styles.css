@@ -19,7 +19,6 @@
   );
 
   /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Montserrat Alternates", sans-serif;
   --second-font: "Grechen Fuemen", cursive;
   --biggest-font-size: 2.5rem;
@@ -676,7 +675,7 @@ img {
   }
 
   .experience__card {
-    grid-template-columns: 360fr 380fr;
+    grid-template-columns: 320px 380px;
     align-items: center;
   }
 
