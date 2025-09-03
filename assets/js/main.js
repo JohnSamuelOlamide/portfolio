@@ -5,12 +5,12 @@ const contactForm = document.getElementById("contact-form"),
 const sendEmail = (error) => {
   error.preventDefault();
 
-  // serviceID - templateID - #form - publicKey
+  // serviceID - templateID - /#form - publicKey
   emailjs
     .sendForm(
       "service_7sp78k5",
       "template_hv48yxp",
-      "#contact-form",
+      "/contact.html/#contact-form",
       "k2tRZLsoCp2SLu9jW"
     )
     .then(
@@ -74,7 +74,7 @@ const sr = ScrollReveal({
   distance: "60px",
   duration: 2500,
   delay: 400,
-//   reset: true, //Repeat Reveal Animation
+  //   reset: true, //Repeat Reveal Animation
 });
 
 sr.reveal(`.perfil, .contact`);

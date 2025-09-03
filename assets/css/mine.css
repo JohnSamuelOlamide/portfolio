@@ -8,7 +8,7 @@
   text-decoration: none;
 }
 body {
-  background: #000;
+  background: /#000;
   font-family: var(--body-font);
 }
 .container {
@@ -183,7 +183,6 @@ body {
   padding: 1rem;
   border: 2px solid hsla(0, 0%, 100%, 0.5);
   margin-bottom: 1rem;
-
 }
 .perfil__buttons {
   display: grid;
